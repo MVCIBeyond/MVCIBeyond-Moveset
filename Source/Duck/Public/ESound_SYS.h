@@ -1,0 +1,20 @@
+#pragma once
+#include "Engine.h"
+#include "ESound_SYS.generated.h"
+
+UENUM()
+enum class ESound_SYS : uint8 {
+    SYS_MAIN_DECESION,
+    SYS_MAIN_CURSOR,
+    SYS_MAIN_CANCEL,
+    SYS_SELECT_DECISION,
+    SYS_SELECT_CURSOR,
+    SYS_SELECT_CANCEL,
+    SYS_SELECT_CHARA_PROVISIONAL,
+    SYS_SELECT_CHARA_DISPLAY,
+    SYS_SELECT_MENU_SIDE,
+    SYS_SELECT_MENU_HEIGHT,
+    SYS_SELECT_SLIDE_IN,
+    SYS_SELECT_SLIDE_OUT,
+};
+
